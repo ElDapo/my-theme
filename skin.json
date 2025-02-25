@@ -1,0 +1,17 @@
+{
+    "name": "Theme-Template",
+    "author": "Millennium",
+    "description": "An example template theme.",
+    "github": {
+        "owner": "eldapo",
+        "repo_name": "my-theme"
+    },
+    "header_image": "https://i.imgur.com/image_here.png",
+    "splash_image": "https://i.imgur.com/image_here.png",
+    "Patches": [
+        {
+            "MatchRegexString": ".*",
+            "TargetJs": "inject.js"
+        }
+    ]
+}
